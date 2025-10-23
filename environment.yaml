@@ -1,0 +1,40 @@
+name: BioDet
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.9.19
+  - pytorch=2.3.0
+  - torchvision=0.18.0
+  - torchaudio=2.3.0
+  - pytorch-cuda=11.8
+  - pip:
+    - omegaconf
+    - torchmetrics==1.3.1
+    - fvcore
+    - iopath
+    - opencv-python 
+    - pycocotools 
+    - matplotlib 
+    - onnxruntime 
+    - onnx
+    - scipy
+    - ffmpeg
+    - hydra-colorlog
+    - hydra-core
+    - gdown
+    - pytorch-lightning==2.5.2
+    - pandas
+    - ruamel.yaml
+    - pyrender
+    - wandb
+    - distinctipy
+    - imageio
+    - einops
+    - scikit-image
+    - ultralytics==8.0.135
+    - git+https://github.com/ChaoningZhang/MobileSAM.git
+    - groundingdino-py

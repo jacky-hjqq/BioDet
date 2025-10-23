@@ -1,0 +1,16 @@
+datasets:
+  ipd:
+    depth_range: [1500, 2000]
+    enable_vis:  true
+    use_depth: false
+    data_base: "SAM-6D/Data/BOP/ipd/test"
+
+  xyzibd:
+    depth_range: [600, 800]
+    enable_vis:  true
+    data_base: "SAM-6D/Data/BOP/xyzibd/test"
+
+model:
+  hvi_ckpt: "SAM-6D/Instance_Segmentation_Model/checkpoints/HVI/hvi_net.pt" 
+  gdino_cfg: "SAM-6D/Instance_Segmentation_Model/preprocess/grounding_dino/cfg/GroundingDINO_SwinT_OGC.py"
+  gdino_ckpt: "SAM-6D/Instance_Segmentation_Model/checkpoints/gdino/groundingdino_swint_ogc.pth" 
