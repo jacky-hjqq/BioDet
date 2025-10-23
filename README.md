@@ -109,3 +109,6 @@ python convert_bop_fromat.py --dataset_name xyzibd --segmentation_model fastsam
 
 python convert_bop_fromat.py --dataset_name xyzibd --segmentation_model sam
 ```
+
+## Acknowledgement
+The code is adapted from [SAM6D](https://github.com/JiehongLin/SAM-6D).
